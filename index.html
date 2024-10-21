@@ -6,9 +6,120 @@
     <!-- start bootstrap css -->
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
     <!-- end bootstrap css -->
+    <!-- start font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- end font awesome -->
+    <!-- start my style css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- end my style css -->
     <title>HQ.CC</title>
   </head>
   <body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg bg-light border-bottom fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><i class="fa-solid fa-wand-magic-sparkles"></i>HQ.CC</a
+        >
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- start menu item -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"> Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+          <!-- end menu item -->
+
+          <!-- start btn sign up and login -->
+          <div
+            class="mb-4 mb-lg-0 d-flex flex-column gap-1 flex-sm-row gap-sm-0"
+          >
+            <a
+              href="#!"
+              class="btn btn-warning btn-sm me-2 d-inline-flex justify-content-center align-items-center text-white"
+            >
+              <svg
+                class="me-1"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16px"
+                height="16px"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="#ffffff"
+                  d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"
+                />
+              </svg>
+              Login</a
+            >
+            <a
+              href="#!"
+              class="btn btn-danger btn-sm me-2 d-inline-flex justify-content-center align-items-center"
+            >
+              <svg
+                class="me-1"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16px"
+                height="16px"
+                viewBox="0 0 640 512"
+              >
+                <path
+                  fill="#ffffff"
+                  d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM504 312l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"
+                />
+              </svg>
+              Sign up
+            </a>
+          </div>
+          <!-- end btn sign up and login -->
+
+          <!-- start form search -->
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-1"
+              type="search"
+              placeholder="Search for"
+              aria-label="Search"
+            />
+            <button class="btn btn-success" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <!-- end form search -->
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
     <!-- start bootstrap js -->
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- end bootstrap js -->
