@@ -5,7 +5,7 @@
   font-weight: 500;
 }
 
-/*  ====================================== FEATURE ======================================*/
+/*  ====================================== HEADER ======================================*/
 .main-header {
   margin-top: 105px;
 }
@@ -14,4 +14,12 @@
 .feature-item img {
   width: 50px;
   height: auto;
+}
+
+/*  ====================================== SUBSCRIBE ======================================*/
+.subscribe {
+  height: 200px;
+  background-image: url(/assets/imgs/subscribe.jpg);
+  background-position: center;
+  background-size: cover;
 }
