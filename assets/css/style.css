@@ -23,3 +23,8 @@
   background-position: center;
   background-size: cover;
 }
+
+/*  ====================================== FOOTER ======================================*/
+footer .navbar-brand {
+  color: #fff;
+}
