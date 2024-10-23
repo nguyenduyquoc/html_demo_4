@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- start bootstrap css -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <!-- end bootstrap css -->
+    <!-- start font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- end font awesome -->
+    <!-- start my style css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- end my style css -->
+    <title>HQ.CC</title>
+  </head>
+  <body class="bg-light">
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg bg-light border-bottom fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          HQ.CC
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- start menu -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#!">FAQs </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+          <!-- end menu -->
+
+          <!-- start login signup  -->
+          <div
+            class="mb-4 mb-lg-0 d-flex flex-column gap-1 flex-sm-row gap-sm-0"
+          >
+            <a
+              class="btn btn-warning text-white me-2 btn-sm d-inline-flex justify-content-center align-items-center"
+              href="#!"
+            >
+              <svg
+                class="me-1"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16px"
+                height="16px"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="#ffffff"
+                  d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"
+                />
+              </svg>
+              Login</a
+            >
+            <a
+              class="btn btn-danger text-light me-2 btn-sm d-inline-flex justify-content-center align-items-center"
+              href="#!"
+            >
+              <svg
+                class="me-1"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16px"
+                height="16px"
+                viewBox="0 0 640 512"
+              >
+                <path
+                  fill="#ffffff"
+                  d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM504 312l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"
+                />
+              </svg>
+              Sign up</a
+            >
+          </div>
+          <!-- end login signup  -->
+
+          <!-- start search form -->
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-1"
+              type="search"
+              placeholder="Search for"
+              aria-label="Search"
+            />
+            <button class="btn btn-success" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <!-- end search form -->
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start header -->
+    <header class="main-header pb-5 border-bottom">
+      <div class="container">
+        <div class="row align-items-center gx-lg-5">
+          <div class="col-lg-6">
+            <h1 class="fs-3 fw-normal py-lg-2">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut
+              reiciendis, voluptatum doloremque corrupti magnam.
+            </h1>
+            <p class="fs-5 fw-light text-secondary py-lg-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus, deserunt labore. Iste quod minus quis excepturi
+              facere distinctio dolorum et! Iste quod minus quis excepturi
+              facere distinctio dolorum et!
+            </p>
+            <a
+              class="btn btn-success btn-sm d-inline-flex align-items-center justify-content-center py-lg-2"
+              href="#!"
+            >
+              <svg
+                class="me-1"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16px"
+                height="16px"
+                viewBox="0 0 640 512"
+              >
+                <path
+                  fill="#ffffff"
+                  d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM504 312l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"
+                />
+              </svg>
+              Sign up for free
+            </a>
+          </div>
+          <div class="col-lg-6 mt-3 mt-lg-0">
+            <div>
+              <img
+                class="rounded w-100"
+                src="./assets/imgs/main-header.jpg"
+                alt="HH.CC"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start about -->
+    <section class="about py-5">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-lg-6 text-center">
+            <h1 class="fs-3 fw-normal">Welcome to HH.CC</h1>
+            <p class="text-secondary">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ullam
+              laborum adipisci dignissimos delectus ex, quas quam odio
+              reprehenderit quis esse voluptas eos debitis tenetur obcaecati
+              culpa asperiores quia quibusdam!
+            </p>
+            <a
+              class="btn btn-success d-inline-flex justify-content-center align-items-center"
+              href="#!"
+            >
+              <svg
+                class="me-1"
+                width="16px"
+                height="16px"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 512"
+              >
+                <path
+                  fill="#ffffff"
+                  d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM112 256l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z"
+                />
+              </svg>
+              Read about our journey
+            </a>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-4">
+            <div>
+              <img class="rounded w-100" src="./assets/imgs/pic2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <p class="text-secondary">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
+              distinctio pariatur ut eveniet natus a optio ratione animi! Porro
+              libero numquam adipisci possimus esse labore eligendi unde
+              voluptates earum quis facere, eos dolorum commodi eum obcaecati
+              consequuntur. Suscipit, saepe enim.
+            </p>
+            <p class="text-secondary">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
+              distinctio pariatur ut eveniet natus a optio ratione animi! Porro
+              libero numquam adipisci possimus esse labore eligendi unde
+              voluptates earum quis facere, eos dolorum commodi eum obcaecati
+              consequuntur. Suscipit, saepe enim.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <p class="text-secondary">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
+              distinctio pariatur ut eveniet natus a optio ratione animi! Porro
+              libero numquam adipisci possimus esse labore eligendi unde
+              voluptates earum quis facere, eos dolorum commodi eum obcaecati
+              consequuntur. Suscipit, saepe enim.
+            </p>
+            <p class="text-secondary">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
+              distinctio pariatur ut eveniet natus a optio ratione animi! Porro
+              libero numquam adipisci possimus esse labore eligendi unde
+              voluptates earum quis facere, eos dolorum commodi eum obcaecati
+              consequuntur. Suscipit, saepe enim.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about -->
+
+    <!-- start subscribe -->
+    <section class="subscribe py-5 d-flex align-items-center">
+      <div class="container">
+        <div
+          class="d-md-flex justify-content-md-center align-items-md-center gap-md-2"
+        >
+          <div class="text-light fs-4 mb-2 mb-md-0 text-center">
+            Subscribe for newsletter
+          </div>
+          <div>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Search for"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-success d-flex align-items-center"
+                type="submit"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="me-1"
+                  width="16px"
+                  height="16px"
+                  viewBox="0 0 640 512"
+                >
+                  <path
+                    fill="#ffffff"
+                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0l57.4-43c23.9-59.8 79.7-103.3 146.3-109.8l13.9-10.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176 0 384c0 35.3 28.7 64 64 64l296.2 0C335.1 417.6 320 378.5 320 336c0-5.6 .3-11.1 .8-16.6l-26.4 19.8zM640 336a144 144 0 1 0 -288 0 144 144 0 1 0 288 0zm-76.7-43.3c6.2 6.2 6.2 16.4 0 22.6l-72 72c-6.2 6.2-16.4 6.2-22.6 0l-40-40c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L480 353.4l60.7-60.7c6.2-6.2 16.4-6.2 22.6 0z"
+                  />
+                </svg>
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end subscribe -->
+
+    <!-- start footer -->
+    <footer class="footer text-bg-dark py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <a class="navbar-brand" href="./index.html">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+              HQ.CC
+            </a>
+            <address class="small mt-4 lh-lg text-secondary">
+              Lane 82 Phu Do, <br />
+              Nam Tu Liem District, <br />Hanoi
+            </address>
+            <p class="small mt-4 text-secondary text-break">
+              nguyenduyquoc293@gmail.com
+            </p>
+          </div>
+          <div class="col-md-2">
+            <h6>Main Menu</h6>
+            <ul class="lh-lg list-unstyled">
+              <li>
+                <a class="text-decoration-none small text-secondary" href="#!"
+                  >Link item</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none small text-secondary" href="#!"
+                  >Link item</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none small text-secondary" href="#!"
+                  >Link item</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none small text-secondary" href="#!"
+                  >Link item</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none small text-secondary" href="#!"
+                  >Link item</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none small text-secondary" href="#!"
+                  >Link item</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h6>Misc</h6>
+            <ul class="lh-lg list-unstyled">
+              <li>
+                <a class="text-decoration-none small text-secondary" href="#!"
+                  >Link item</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none small text-secondary" href="#!"
+                  >Link item</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none small text-secondary" href="#!"
+                  >Link item</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none small text-secondary" href="#!"
+                  >Link item</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none small text-secondary" href="#!"
+                  >Link item</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <h6 class="pb-md-2">Follow us</h6>
+            <div class="d-flex">
+              <a
+                href="#!"
+                class="rounded-pill me-1 btn btn-primary d-flex align-items-center"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="me-1 me-md-0 me-lg-1"
+                  width="16px"
+                  height="16px"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="#ffffff"
+                    d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
+                  />
+                </svg>
+                <span class="d-md-none d-lg-inline">Facebook</span>
+              </a>
+              <a
+                href="#!"
+                class="rounded-pill me-1 btn btn-secondary d-flex align-items-center"
+              >
+                <svg
+                  class="me-1 me-md-0 me-lg-1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16px"
+                  height="16px"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    fill="#fafafa"
+                    d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"
+                  />
+                </svg>
+                <span class="d-md-none d-lg-inline">Tiktok</span>
+              </a>
+              <a
+                href="#!"
+                class="rounded-pill btn btn-danger d-flex align-items-center"
+              >
+                <svg
+                  class="me-1 me-md-0 me-lg-1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16px"
+                  height="16px"
+                  viewBox="0 0 576 512"
+                >
+                  <path
+                    fill="#ffffff"
+                    d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"
+                  />
+                </svg>
+                <span class="d-md-none d-lg-inline">Youtube</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- start bootstrap js -->
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- end bootstrap js -->
+  </body>
+</html>
